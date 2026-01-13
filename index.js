@@ -2,7 +2,7 @@ const ffmpeg = require('fluent-ffmpeg');
 const ffmpegPath = require('ffmpeg-static');
 const ffprobePath = require('ffprobe-static').path;
 const path = require('path');
-const fs = require('fs'); // Added for file size checks
+const fs = require('fs');
 const cliProgress = require('cli-progress');
 
 ffmpeg.setFfmpegPath(ffmpegPath);
